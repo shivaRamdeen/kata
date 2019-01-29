@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata", "Kata\Kata.csproj", "{C96E0BA9-C6FE-4862-BB27-0F9024ADDB99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TribonacciSequence", "TribonacciSequence\TribonacciSequence.csproj", "{89B73DC0-44DF-41A3-B30D-1559C61F3FCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C96E0BA9-C6FE-4862-BB27-0F9024ADDB99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C96E0BA9-C6FE-4862-BB27-0F9024ADDB99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C96E0BA9-C6FE-4862-BB27-0F9024ADDB99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C96E0BA9-C6FE-4862-BB27-0F9024ADDB99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89B73DC0-44DF-41A3-B30D-1559C61F3FCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89B73DC0-44DF-41A3-B30D-1559C61F3FCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89B73DC0-44DF-41A3-B30D-1559C61F3FCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89B73DC0-44DF-41A3-B30D-1559C61F3FCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4BE26DF8-DE8C-4C20-94EA-2B7A52D16304}
+	EndGlobalSection
+EndGlobal
