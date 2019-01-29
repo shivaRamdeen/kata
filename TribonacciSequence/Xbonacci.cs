@@ -16,10 +16,19 @@ namespace TribonacciSequence
                 return result.ToArray();
             }
 
-            Parallel.For(0, n, i =>
-            {
+            //push inital values to list
+            result.AddRange(signature);
 
-            });
+            for(int i=3;i<n;i++)
+            {
+                var last3 = result.Skip(Math.Max(0, result.Count()) - 3);
+                var answer = last3.Sum();
+                Console.Write(answer + ",");
+                result.Add(answer);
+            }
+
+            return result.ToArray();
+
         }
     }
 }

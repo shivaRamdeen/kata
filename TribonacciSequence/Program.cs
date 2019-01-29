@@ -11,6 +11,9 @@ namespace TribonacciSequence
         static void Main(string[] args)
         {
             Console.WriteLine("Tribonacci Sequence");
+            Xbonacci x = new Xbonacci();
+            double[] sig = { 17, 7, 4 };
+            x.Tribonacci(sig,7);
             Console.ReadLine();
         }
     }
